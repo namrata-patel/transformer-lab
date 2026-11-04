@@ -1,0 +1,26 @@
+/* Learning domains — order is the order of the road. */
+window.TL = window.TL || {};
+TL.DOMAINS = [
+  { id: 'foundations', name: 'AI Foundations', short: 'Foundations', icon: 'spark', color: '#3b82f6',
+    blurb: 'What AI, ML and deep learning are, how models learn from data, and how to tell if they generalize.' },
+  { id: 'math', name: 'Mathematics for ML', short: 'Mathematics', icon: 'sigma', color: '#6366f1',
+    blurb: 'Linear algebra, calculus, probability and information theory, all the math behind attention and training.' },
+  { id: 'ml', name: 'Core Machine Learning', short: 'Machine Learning', icon: 'chart', color: '#0ea5e9',
+    blurb: 'Regression, classification, loss functions, optimizers, regularization and evaluation metrics.' },
+  { id: 'dl', name: 'Deep Learning & Neural Networks', short: 'Neural Networks', icon: 'brain', color: '#8b5cf6',
+    blurb: 'Perceptrons to deep nets: backprop, autograd, normalization, residuals, embeddings and PyTorch.' },
+  { id: 'nlp', name: 'NLP Before Transformers', short: 'NLP', icon: 'chat', color: '#14b8a6',
+    blurb: 'Text as data: tokenization, BPE, word vectors, n-grams, RNNs, LSTMs and seq2seq.' },
+  { id: 'attention', name: 'Attention', short: 'Attention', icon: 'nodes', color: '#10b981',
+    blurb: 'Queries, keys and values; scaled dot-product attention; masks; multi-head attention; complexity.' },
+  { id: 'transformers', name: 'Transformer Architecture', short: 'Transformers', icon: 'layers', color: '#7c3aed',
+    blurb: 'Positional encodings, RoPE, feed-forward layers, residual streams, LayerNorm, encoders and decoders.' },
+  { id: 'gpt', name: 'GPT & Language Models', short: 'GPT', icon: 'robot', color: '#2563eb',
+    blurb: 'Next-token prediction, decoding strategies, perplexity, pretraining, SFT, preference optimization and LoRA.' },
+  { id: 'build', name: 'Build Your Own GPT', short: 'Train MiniGPT', icon: 'wrench', color: '#f59e0b',
+    blurb: 'Implement and train a small decoder-only Transformer from scratch in PyTorch.' },
+  { id: 'llmeng', name: 'Modern LLM Engineering', short: 'LLM Engineering', icon: 'chip', color: '#0d9488',
+    blurb: 'KV cache, GQA, FlashAttention, FLOPs and memory, quantization, serving, parallelism, MoE, RAG.' },
+  { id: 'interview', name: 'Interview Mastery', short: 'Interviews', icon: 'trophy', color: '#e11d48',
+    blurb: 'Derivations, coding, debugging and system design at the depth expected for ML/LLM engineering roles.', virtual: true },
+];
